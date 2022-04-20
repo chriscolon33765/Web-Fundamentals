@@ -1,0 +1,49 @@
+
+
+body {
+    background-color: lightgray;
+    border-top: 3px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#container img {
+    height: 200px;
+    width: 100%;
+}
+
+#topRow {
+    height: 250px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#middleRow {
+    height: 250px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#bottomRow {
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
