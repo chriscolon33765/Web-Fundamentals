@@ -1,0 +1,51 @@
+
+
+#main {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h1 {
+    margin-top: -5px;
+}
+
+#row {
+    height: 100px;
+    background-color: #17A2B8;
+}
+
+p {
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+#info > img {
+    height: 100px;
+    border: 3px solid gray;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+p > img {
+    height: 20px;
+}
+
+a {
+    color: #3975A9;
+}
+
+#info {
+    position: relative;
+    top: -50px;
+    left: 25px;
+}
+
+#infoCont {
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    height: 250px;
+}
