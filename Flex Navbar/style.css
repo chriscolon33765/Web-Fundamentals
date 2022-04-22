@@ -1,0 +1,39 @@
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+.nav-title {
+    color: white;
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.btn {
+    background-color: #17A2B8;
+    border: 3px solid black;
+    color: white;
+    padding: 2px 5px;
+}
+
+.active {
+    color: white;
+}
+

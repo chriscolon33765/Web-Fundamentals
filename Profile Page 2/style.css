@@ -1,0 +1,156 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.otherImage {
+    height: 25px;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#navBar {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftNav {
+    color: white;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+
+#leftNav h1 {
+    margin-right: 20px;
+
+}
+
+#leftNav li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+button {
+    background-color: #17A2B8;
+    color: white;
+    font-size: 25px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+#mainInfo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#leftInfo {
+    width: 400px;
+    margin-right: 25px;
+}
+
+.profileBar {
+    height: 100px;
+    background-color: #17A2B8;
+}
+
+.profileImage {
+    border-radius: 50%;
+    border: 2px solid grey;
+    padding: 2px;
+    height: 100px;
+    background-color: white;
+}
+
+.profileInfoTop {
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
+.profileInfoTop  p {
+    padding-top: 20px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.profileInfoContainerTop {
+    border: 2px solid grey;
+    padding-bottom: 20px;
+}
+
+
+.barCommon {
+    height: 50px;
+    background-color: #333333;
+}
+
+.barCommon p {
+    color: white;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#rightInfo {
+    width: 400px;
+}
+
+.profileInfoBottom2  {
+    margin-top: 50px;
+}
+
+.profileInfoBottom  p {
+    padding-top: 20px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.profileInfoContainerBottom {
+    border: 2px solid grey;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+}
+
+
+
+.profileInfoContainerBottom > p {
+    display: flex;
+    align-items: center;
+}
+
+.profileInfoContainerBottom img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profileInfoContainerBottom2 {
+    border: 2px solid grey;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profileInfoContainerBottom2 img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profileInfoContainerBottom2 > p {
+    display: flex;
+    align-items: center;
+}
