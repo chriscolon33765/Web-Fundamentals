@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="navBar">
+            <div class="logo">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="rightNav">
+                <div class="cities">
+                    <div style="cursor: pointer;" onclick="alert('Loading weather report...')"><h3>Burbank</h3></div>
+                    <div style="cursor: pointer;" onclick="alert('Loading weather report...')"><h3>Chicago</h3></div>
+                    <div style="cursor: pointer;" onclick="alert('Loading weather report...')"><h3>Dallas</h3></div>
+                </div>
+            </div>
+        </div>
+        <div id="mainInfo">
+            <div class="cityTemp">
+                <div class="yourCity"><h2>San Jose</h2></div>
+            <div class="showTemp">
+                <p>show temperature in <select name="tempMeasure" id="tempMeasure" onchange="convert(this)">
+                    <option onclick="fahrenheit()" value="fahrenheit">°F</option>
+                    <option onclick="celcius()" value="celcius">°C</option>
+                </select></p>
+            </div>
+            </div>
+            <div class="divider"></div>
+            <div class="sevenDay">
+                <div class="days">
+                    <h3>Today</h3>
+                    <div><img src="./images/some_rain.png" alt="Raining"></div>
+                    <p>some rain</p>
+                    <p class="temperature"><span id="temp1" class="high" style="color: #CF2D2A; padding-right: 20px;">75</span><span id="temp2" class="low" style="color: #3E84E5;">65</span></p>
+                </div>
+                <div class="days">
+                    <h3>Tomrrow</h3>
+                    <div><img src="./images/some_sun.png" alt="Raining"></div>
+                    <p>some son</p>
+                    <p class="temperature"><span id="temp3" class="high" style="color: #CF2D2A; padding-right: 20px;">80</span><span id="temp4" class="low" style="color: #3E84E5;">66</span></p>
+                </div>
+                <div class="days">
+                    <h3>Friday</h3>
+                    <div><img src="./images/some_clouds.png" alt="Raining"></div>
+                    <p>some clouds</p>
+                    <p class="temperature"><span id="temp5" class="high" style="color: #CF2D2A; padding-right: 20px;">69</span><span id="temp6" class="low" style="color: #3E84E5;">61</span></p>
+                </div>
+                <div class="days">
+                    <h3>Saturday</h3>
+                    <div><img src="./images/some_sun.png" alt="Raining"></div>
+                    <p>some sun</p>
+                    <p class="temperature"><span id="temp7" class="high" style="color: #CF2D2A; padding-right: 20px;">78</span><span id="temp8" class="low" style="color: #3E84E5;">70</span></p>
+                </div>
+            </div>
+                <div class="cookie">
+                    <div class="cookieImage"><img src="./images/cookie.png" alt="Cookie Image"></div>
+                    <div class="cookieP"><p><span style="font-size: 18px; font-weight: 900 !important;">Stop! Cookie time</span></p><p>We use cookies (sadly not the editable ones) 
+                    to personalize content and ads to provide social media features and to analyse out traffic. 
+                    <a href="#">Read more</a></p></div>
+                    <div onclick="removeNotice()" class="cookieButton"><button>I Accept</button></div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
